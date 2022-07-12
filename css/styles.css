@@ -84,6 +84,7 @@ body {
   letter-spacing: 0.03em;
   padding-left: 15px;
   padding-top: 24px;
+  margin: 0;
 }
 
 .logo-span {
@@ -464,6 +465,7 @@ body {
   color: var(--blue-color);
   text-decoration: none;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 
 .footer-logo-span {
