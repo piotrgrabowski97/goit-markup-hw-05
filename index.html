@@ -67,9 +67,14 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="hero-button" type="button" onclick="alert('Elo')">
+          <button class="hero-button" type="button" data-modal-open>
             Zamów usługę
           </button>
+          <div class="modal-backdrop is-hidden" data-modal>
+            <section class="modal-content">
+              <button class="modal-exit" data-modal-close>X</button>
+            </section>
+          </div>
         </div>
       </section>
 
@@ -517,5 +522,6 @@
         </section>
       </div>
     </footer>
+    <script src="/goit-markup-hw-05/modal.js"></script>
   </body>
 </html>
